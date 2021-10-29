@@ -25,7 +25,7 @@ public class ClienteTeste {
         System.out.println(tipoCliente.getNomeRelatorio());
         
         // Busca por atributo de enumeração
-        TipoCliente tipoCliente2 = TipoCliente.tipoClientePorRelatorio("Pessoa Física");
+        TipoCliente tipoCliente2 = TipoCliente.tipoClientePorRelatorio("Pessoa Jurídica");
         // Retorna a enumeração de acordo com o atributo passado no argumento
         System.out.println(tipoCliente2);
         

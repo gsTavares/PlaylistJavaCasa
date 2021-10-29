@@ -14,10 +14,18 @@ package com.aulas.maratonajava.interfaces;
 // deve obrigatoriamente sobrescrever esses métodos
 
 public interface DataLoader {
+    // Atributos em interfaces
+    // Padrão -> public static final, ou seja, todos são constantes
+    int MAX_DATA_SIZE = 10;
+    
     void load();
     
     // Método com implementação na interface
     default void chekPermission(){
         System.out.println("Fazendo checagem de permissões");
+    }
+    
+    /* public */ static void retriveMaxDataSize(){ // Método estático exclusivo da interface.
+        System.out.println("Dentro do retrieveMaxDataSize na interface");
     }
 }

@@ -24,11 +24,27 @@ public class WrapperTest {
         
         Byte byteW = 1;
         Short shortW = 1;
-        Integer intW = 1;
+        Integer intW = 1; // Boxing
         Long longW = 10L;
         Float floatW = 10F;
         Double doubleW = 100.0;
         Character charW = 'a';
         Boolean booleanW = false;
+        
+        int i = intW; // Unboxing
+        Integer intW2 = Integer.parseInt("1"); // Transforma uma string em integer
+        
+        // Quase todos os wrappers possuem esse método de conversão
+        
+        // Alguns métodos usando Character
+        
+        System.out.println(Character.isDigit('a'));
+        System.out.println(Character.isDigit('9'));
+        System.out.println(Character.isLetterOrDigit('!'));
+        System.out.println(Character.isUpperCase('!'));
+        System.out.println(Character.isLowerCase('!'));
+        System.out.println(Character.toUpperCase('!'));
+        
+
     }
 }

@@ -19,6 +19,12 @@ public class Barco {
     public String toString() {
         return "Barco{" + "nome=" + nome + '}';
     }
+
+    public String getNome() {
+        return nome;
+    }
+    
+    
     
     
 }

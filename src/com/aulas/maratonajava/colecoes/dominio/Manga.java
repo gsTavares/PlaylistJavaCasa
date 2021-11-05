@@ -56,11 +56,7 @@ public class Manga implements Comparable<Manga> {
 
     @Override
     public int hashCode() {
-        int hash = 7;
-        hash = 23 * hash + (int) (this.id ^ (this.id >>> 32));
-        hash = 23 * hash + Objects.hashCode(this.nome);
-        hash = 23 * hash + (int) (Double.doubleToLongBits(this.preco) ^ (Double.doubleToLongBits(this.preco) >>> 32));
-        return hash;
+        return Objects.hash(id, nome);
     }
 
     @Override
@@ -75,17 +71,16 @@ public class Manga implements Comparable<Manga> {
             return false;
         }
         final Manga other = (Manga) obj;
-        if (this.id != other.id) {
-            return false;
-        }
-        if (Double.doubleToLongBits(this.preco) != Double.doubleToLongBits(other.preco)) {
-            return false;
-        }
         if (!Objects.equals(this.nome, other.nome)) {
+            return false;
+        }
+        if (!Objects.equals(this.id, other.id)) {
             return false;
         }
         return true;
     }
+
+    
 
     public int getQuantidade() {
         return quantidade;

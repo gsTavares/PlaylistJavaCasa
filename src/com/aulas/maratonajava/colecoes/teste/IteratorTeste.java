@@ -7,6 +7,7 @@ package com.aulas.maratonajava.colecoes.teste;
 import com.aulas.maratonajava.colecoes.dominio.Manga;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -18,7 +19,9 @@ public class IteratorTeste {
     public static void main(String[] args) {
 
         // Implementando Iterator;
-        List<Manga> mangas = new ArrayList<>(6);
+        List<Manga> mangas = new LinkedList<>();
+        
+        // LinkedList --> cada posição do array conhece suas posições vizinhas
 
         mangas.add(new Manga(5L, "Attack on Titan", 19.9, 0));
         mangas.add(new Manga(1L, "Berserk", 9.5, 5));

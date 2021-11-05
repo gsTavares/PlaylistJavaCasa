@@ -15,7 +15,7 @@ public class Manga implements Comparable<Manga>{
     private String nome;
     private double preco;
 
-    public Manga(long id, String nome, double preco) {
+    public Manga(Long id, String nome, double preco) {
         Objects.requireNonNull(id);
         Objects.requireNonNull(nome);
         this.id = id;
@@ -91,11 +91,11 @@ public class Manga implements Comparable<Manga>{
     
     
     
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

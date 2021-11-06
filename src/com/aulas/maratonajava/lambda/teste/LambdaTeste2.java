@@ -20,9 +20,9 @@ public class LambdaTeste2 {
         
         names.add("Natsu");
         names.add("Allucard");
-        
-        List<Integer> integers = map(names, (String s) -> s.length());
-        List<String> map = map(names, s -> s.toUpperCase());
+                                             // (String s) -> s.length() == String::length  
+        List<Integer> integers = map(names, String::length);
+        List<String> map = map(names, String::toUpperCase);
         
         System.out.println(integers);
         System.out.println(map);

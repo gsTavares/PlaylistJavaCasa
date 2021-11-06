@@ -3,13 +3,24 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/colecoes/teste/MapTeste2.java</file>
-            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/colecoes/teste/IteratorTeste.java</file>
-            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/colecoes/teste/MapTeste3.java</file>
-            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/colecoes/teste/NavigableMapTeste.java</file>
-            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/colecoes/dominio/Consumidor.java</file>
-            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/colecoes/dominio/Manga.java</file>
-            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/colecoes/teste/SetTeste.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/classesinternas/AnonymousClassesTeste2.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/generics/teste/ClasseGenericaTeste2.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/generics/teste/ClasseGenericaTeste3.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/classesinternas/OuterClassesTeste2.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/generics/services/RentavelService.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/generics/teste/WildcardTeste.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/generics/teste/ClasseGenericaTeste.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/comportamentos/teste/ComportamentoPorParametroTeste.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/comportamentos/interfaces/CarPredicate.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/generics/teste/WildcardTeste2.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/generics/dominio/Carro.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/generics/services/CarroRentavelService.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/comportamentos/dominio/Car.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/classesinternas/OuterClassesTeste.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/generics/teste/MetodoGenericoTeste.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/classesinternas/AnonymousClassesTeste.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/generics/services/BarcoRentavelService.java</file>
+            <file>file:/C:/Users/Marketing/Documents/NetBeansProjects/maratonajava2/PlaylistJavaCasa/src/com/aulas/maratonajava/classesinternas/OuterClassesTeste3.java</file>
         </group>
     </open-files>
 </project-private>
